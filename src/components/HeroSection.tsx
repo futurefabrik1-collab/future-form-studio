@@ -27,7 +27,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6"
           >
-            Gaussian Splatting · Digital Twins · Leipzig
+            Gaussian Splatting · Digital Twins
           </motion.p>
 
           <motion.h1
@@ -36,8 +36,7 @@ const HeroSection = () => {
             transition={{ duration: 0.9, delay: 0.4 }}
             className="text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] mb-8 text-foreground"
           >
-            <span className="gradient-text">Future</span>{" "}
-            Fabrik
+            <span className="gradient-text">3D</span>-ARK
           </motion.h1>
 
           <motion.p

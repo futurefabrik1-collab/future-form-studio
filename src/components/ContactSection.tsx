@@ -78,10 +78,10 @@ const ContactSection = () => {
       {/* Footer */}
       <div className="max-w-6xl mx-auto mt-32 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted-foreground">
-          © {new Date().getFullYear()} Future Fabrik
+          © {new Date().getFullYear()} 3D-ARK
         </p>
         <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted-foreground/50">
-          Gaussian Splatting · Digital Twins · Leipzig
+          Gaussian Splatting · Digital Twins
         </p>
       </div>
     </section>
