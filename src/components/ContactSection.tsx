@@ -18,14 +18,13 @@ const ContactSection = () => {
             transition={{ duration: 0.7 }}
           >
             <p className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-4">
-              Kontakt
+              Contact
             </p>
             <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-6">
-              Bereit für Ihren <span className="gradient-text">Digital Twin</span>?
+              Let's Make Real Spaces <span className="gradient-text">Digitally Usable</span>
             </h2>
             <p className="text-muted-foreground font-light leading-relaxed mb-8">
-              Ob Industrie, Kultur oder Film – wir finden die passende Lösung für Ihr Projekt.
-              Forschungsnah. Plattformbewusst. Produktionsorientiert.
+              Ready to transform your environment into a production-ready digital asset? Let's discuss your project.
             </p>
 
             <div className="space-y-4">
@@ -65,10 +64,10 @@ const ContactSection = () => {
       {/* Footer */}
       <div className="max-w-6xl mx-auto mt-32 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted-foreground">
-          © {new Date().getFullYear()} 3D-ARK
+          © {new Date().getFullYear()} 3DARK
         </p>
         <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted-foreground/50">
-          Gaussian Splatting · Digital Twins
+          Digital Twins · Real-World Capture
         </p>
       </div>
     </section>

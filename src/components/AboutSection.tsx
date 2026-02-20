@@ -25,14 +25,10 @@ const AboutSection = () => {
           className="max-w-3xl mb-16"
         >
           <p className="font-mono text-xs tracking-[0.3em] uppercase text-primary/60 mb-6">
-            Was wir tun
+            What We Do
           </p>
           <p className="text-lg md:text-xl text-muted-foreground font-light leading-relaxed">
-            Wir scannen Orte, Anlagen, Ausstellungen und Kulturräume als fotorealistische
-            3D Gaussian Splats – schnell erfassbar, beeindruckend in der Darstellung und ideal
-            für Marketing, Planung, Archivierung und interaktive Erlebnisse. Seit unseren
-            ersten GS-Projekten arbeiten wir kontinuierlich mit neuen Papers, Tools und
-            Workflows, um Qualität, Performance und Clean-Up immer weiter zu pushen.
+            3DARK transforms real-world environments into production-ready digital assets. Using advanced capture and Gaussian Splatting pipelines, we deliver interactive, engine-ready environments that can be used for planning, storytelling, training and preservation.
           </p>
         </motion.div>
 
@@ -45,17 +41,13 @@ const AboutSection = () => {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-serif text-foreground mb-4">
-              Was ihr bekommt
+              Who We Are
             </h2>
             <p className="text-muted-foreground font-light leading-relaxed mb-4">
-              Interaktive 3D-Modelle (Web/QR), Renderings, Videos, Engine-Integration
-              (Unreal/Unity) und optimierte Assets für reale Produktionspipelines.
+              3DARK operates at the intersection of advanced capture technology and production pipelines. We don't just scan — we deliver production-ready spatial intelligence.
             </p>
             <p className="text-sm text-muted-foreground/80 font-light leading-relaxed">
-              Unser Anspruch: nicht nur scannen, sondern ein belastbares Produktionsasset liefern.
-              Wir testen laufend neue Papers, Tools und Workflows, optimieren für Zielplattformen
-              und achten auf saubere Übergaben – strukturierte Daten, klare Benennung,
-              nachvollziehbare Pipelines.
+              Born from the convergence of photogrammetry, volumetric capture, and real-time rendering, we've been pushing the boundaries of what's possible since Gaussian Splatting emerged. Elusive by design. Focused on results.
             </p>
           </div>
           <motion.div 

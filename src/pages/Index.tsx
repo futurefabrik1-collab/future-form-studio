@@ -1,10 +1,11 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
-import ProcessSection from "@/components/ProcessSection";
+import IndustriesSection from "@/components/IndustriesSection";
 import ProjectsSection from "@/components/ProjectsSection";
-import SectorsSection from "@/components/SectorsSection";
+import ProcessSection from "@/components/ProcessSection";
 import ContactSection from "@/components/ContactSection";
+import CookieConsent from "@/components/CookieConsent";
 
 const Index = () => {
   return (
@@ -12,10 +13,11 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
-      <ProcessSection />
+      <IndustriesSection />
       <ProjectsSection />
-      <SectorsSection />
+      <ProcessSection />
       <ContactSection />
+      <CookieConsent />
     </main>
   );
 };

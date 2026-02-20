@@ -3,10 +3,10 @@ import { useRef } from "react";
 import { getRandomInViewAnimation } from "@/utils/animations";
 
 const steps = [
-  { step: "01", title: "Erfassung", desc: "Vor-Ort-Scan mit spezialisierten Kameras. Hunderte bis Tausende Fotos aus allen Blickwinkeln." },
-  { step: "02", title: "Verarbeitung", desc: "Gaussian Splatting Algorithmus erzeugt fotorealistische 3D-Punktwolke aus den Rohdaten." },
-  { step: "03", title: "Optimierung", desc: "LOD-Stufen, Komprimierung und Formatierung für die gewünschte Plattform." },
-  { step: "04", title: "Auslieferung", desc: "Browser-Viewer, Engine-Export, Video-Rendering oder Custom-Integration." },
+  { step: "01", title: "Capture", desc: "Advanced multi-camera workflows capturing hundreds to thousands of images from all angles." },
+  { step: "02", title: "Reconstruction", desc: "Gaussian Splatting algorithms process raw data into photorealistic 3D point clouds." },
+  { step: "03", title: "Optimization", desc: "Real-time engine optimization balancing visual fidelity with performance requirements." },
+  { step: "04", title: "Delivery", desc: "Production-ready assets for web, engines, VFX pipelines, or custom integrations." },
 ];
 
 const ProcessSection = () => {
@@ -23,11 +23,14 @@ const ProcessSection = () => {
           className="mb-16"
         >
           <p className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-4">
-            Unser Prozess
+            Technology
           </p>
           <h2 className="text-3xl md:text-4xl font-serif text-foreground max-w-xl">
-            Vom Scan zum fertigen Digital Twin
+            Scalable Environments That Balance Realism and Performance
           </h2>
+          <p className="text-muted-foreground font-light mt-4 max-w-2xl">
+            Our pipeline combines advanced capture workflows, Gaussian Splatting reconstruction and real-time engine optimization. The result: scalable digital environments that balance realism and performance.
+          </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
